@@ -9,10 +9,6 @@ body {
 	text-align: center;
 }
 
-.carousel{
-	width: 110%;
-	left: -5%;
-}
 .carousel .container {
       position: absolute;
       right: 0;
