@@ -9,8 +9,9 @@ body {
 	text-align: center;
 }
 
-.jumbotron .carousel{
-	text-align: left;
+.carousel{
+	width: 110%;
+	left: -5%;
 }
 .carousel .container {
       position: absolute;
