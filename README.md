@@ -7,7 +7,7 @@ The idea for Game Hub came about after thinking ".. wouldn't it be awesome to ha
 
 ### Recommending Games
 
-To recommend games, simply add your game to `GameData.json` following the preset JSON format, and submit a pull request. Once the pull request is accepted your game will automagically be added to the list (the HTML is generated with Moustache.js).
+To recommend games, simply add your game to [GameData.json](https://github.com/matthojo/GameHub/blob/gh-pages/GameData.json) following the preset JSON format, and submit a pull request. Once the pull request is accepted your game will automagically be added to the list (the HTML is generated with Moustache.js).
 
 ### Getting featured
 
