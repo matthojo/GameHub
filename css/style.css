@@ -110,7 +110,7 @@ body {
 	line-height: 30px;
 	margin-top: 0;
 }
-.game_item p{
+.game_item p.description{
 	max-height: 70px;
 	white-space: nowrap;
 	overflow: hidden;

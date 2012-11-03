@@ -46,7 +46,7 @@
         </a>
           <!-- Link or button to toggle dropdown -->
           <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            <li><a tabindex="-1" href="#">Show all games</a></li>
+            <li><a tabindex="-1" href="#">All Games</a></li>
             <li><a tabindex="-1" href="#educational">Educational</a></li>
             <li><a tabindex="-1" href="#multiplayer">Multiplayer</a></li>
             <li><a tabindex="-1" href="#platform">Platform</a></li>
@@ -81,7 +81,7 @@
           </div>
           <div class="information">
             <h1>{{name}}</h1>
-            <p>{{description}}</p>
+            <p class="description" rel="popover" data-content="{{description}}">{{description}}</p>
             <ul class="muted cat">
               {{#cat}} <li>{{.}}</li> {{/cat}}
             </ul>

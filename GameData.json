@@ -5,7 +5,9 @@
          "description":"Rawkets is a massively multiplayer game in which you can shoot and interact with other players, in real-time, in space! It uses the latest Web technologies, including HTML5 canvas and WebSockets.",
          "url": "http://rawkets.com",
          "cat": ["multiplayer", "shooter"],
-         "thumbnail": "img/games/thumbnails/rawkets_thumb.jpg"
+         "platform": ["desktop", "mobile"],
+         "thumbnail": "img/games/thumbnails/rawkets_thumb.jpg",
+         "full_image": "img/games/full/rawkets.jpg"
       }
    ]
 }
