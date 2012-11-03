@@ -7,7 +7,18 @@
          "cat": ["multiplayer", "shooter"],
          "platform": ["desktop", "mobile"],
          "thumbnail": "img/games/thumbnails/rawkets_thumb.jpg",
-         "full_image": "img/games/full/rawkets.jpg"
+         "full_image": "img/games/full/rawkets.jpg",
+         "author": "Rob Hawkes"
+      },
+      {
+         "name":"Biolab Disaster",
+         "description":"An awesome little platform game, made with ImpactJS.",
+         "url": "http://playbiolab.com/",
+         "cat": ["shooter", "platform"],
+         "platform": ["desktop", "mobile"],
+         "thumbnail": "img/games/thumbnails/biolab_thumb.png",
+         "full_image": "",
+         "author": "Dominic Szablewski"
       }
    ]
 }
