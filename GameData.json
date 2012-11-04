@@ -5,7 +5,7 @@
          "description":"Rawkets is a massively multiplayer game in which you can shoot and interact with other players, in real-time, in space! It uses the latest Web technologies, including HTML5 canvas and WebSockets.",
          "url": "http://rawkets.com",
          "cat": ["multiplayer", "shooter"],
-         "platform": ["desktop", "mobile"],
+         "platform": ["desktop"],
          "thumbnail": "img/games/thumbnails/rawkets_thumb.jpg",
          "full_image": "img/games/full/rawkets.jpg",
          "author": "Rob Hawkes"
@@ -19,6 +19,76 @@
          "thumbnail": "img/games/thumbnails/biolab_thumb.png",
          "full_image": "",
          "author": "Dominic Szablewski"
+      },
+      {
+         "name":"Score Rush",
+         "description":"Score Rush is the fastest, craziest shoot-em-up game ever released online.",
+         "url": "https://turbulenz.com/games/scorerush/",
+         "cat": ["shooter", "arcade"],
+         "platform": ["desktop"],
+         "thumbnail": "img/games/thumbnails/sr_thumb.png",
+         "full_image": "",
+         "author": "Xona Games via Turbulenz"
+      },
+      {
+         "name":"Save The Day",
+         "description":"Save the Day is a delightful twist on the classic twitch arcade game.",
+         "url": "https://turbulenz.com/games/save-the-day",
+         "cat": ["shooter", "arcade"],
+         "platform": ["desktop"],
+         "thumbnail": "img/games/thumbnails/std_thumb.png",
+         "full_image": "",
+         "author": "Denki via Turbulenz"
+      },
+      {
+         "name":"Space Arc",
+         "description":"The solar system needs you! A wandering black hole has destroyed all the planets and only you, and your merry band of space-travelling animals, can repair them!",
+         "url": "https://turbulenz.com/games/space-ark/",
+         "cat": ["arcade"],
+         "platform": ["desktop"],
+         "thumbnail": "img/games/thumbnails/spacearc_thumb.png",
+         "full_image": "",
+         "author": "Strawdog Studios via Turbulenz"
+      },
+      {
+         "name":"Browser Quest",
+         "description":"BrowserQuest is a multiplayer game inviting you to explore a world of adventure from your Web browser.",
+         "url": "http://browserquest.mozilla.org/",
+         "cat": ["adventure"],
+         "platform": ["desktop"],
+         "thumbnail": "img/games/thumbnails/bq_thumb.png",
+         "full_image": "",
+         "author": "Mozilla & Little Workshop"
+      },
+      {
+         "name":"Cut The Rope",
+         "description":"A mysterious package has arrived, and the little monster inside has only one request… CANDY!",
+         "url": "http://www.cuttherope.ie/",
+         "cat": ["puzzle"],
+         "platform": ["desktop", "mobile"],
+         "thumbnail": "img/games/thumbnails/ctr_thumb.png",
+         "full_image": "",
+         "author": "Zeptolab"
+      },
+      {
+         "name":"Bejeweled",
+         "description":"The goal of Bejeweled is to swap pairs of gems in order to create sets of three or more.",
+         "url": "http://bejeweled.popcap.com/html5/0.9.12.9490/html5/Bejeweled.html",
+         "cat": ["puzzle"],
+         "platform": ["desktop"],
+         "thumbnail": "img/games/thumbnails/bejeweled_thumb.png",
+         "full_image": "",
+         "author": "Popcap"
+      },
+      {
+         "name":"Angry Birds",
+         "description":"The survival of the Angry Birds is at stake! Dish out revenge on the green pigs who stole the Birds’ eggs.",
+         "url": "http://chrome.angrybirds.com/",
+         "cat": ["puzzle"],
+         "platform": ["desktop"],
+         "thumbnail": "img/games/thumbnails/ab_thumb.png",
+         "full_image": "",
+         "author": "Rovio Entertainment Ltd."
       }
    ]
 }

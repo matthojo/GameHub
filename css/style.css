@@ -29,7 +29,6 @@ body {
 }
 .carousel img {
   min-width: 100%;
-  height: 500px;
 }
 .carousel-caption {
   background-color: transparent;
@@ -89,6 +88,7 @@ body {
 #GamesList .game_item{
 	float: left;
 	width: 50%;
+  margin-bottom: 20px;
 }
 .game_item .image{
 	float: left;

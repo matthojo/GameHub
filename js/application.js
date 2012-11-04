@@ -20,7 +20,7 @@ function init(){
 		else showAllCat();
 	});
 
-	$(".game_item .description[rel=popover]").popover({trigger: "hover", placement:"right", title:"Description"});
+	$(".game_item .description[rel=popover]").popover({trigger: "hover", placement:"top", title:"Description"});
 }
 
 function showOnlyCat(className){
