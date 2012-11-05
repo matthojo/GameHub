@@ -1,7 +1,8 @@
 
 body {
+  font-family:  "Helvetica Neue", sans-serif;
 	padding-top: 0;
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .alert-flat{
@@ -89,6 +90,10 @@ body {
 	float: left;
 	width: 50%;
   margin-bottom: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .game_item .image{
 	float: left;
@@ -96,9 +101,8 @@ body {
 	height: 150px;
 	overflow: hidden;
 	margin-right: 20px;
-	background: #EEE;
-	border-radius: 5px;
-	box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .game_item .image img{
@@ -106,22 +110,35 @@ body {
 }
 
 .game_item h1{
+  color: #3F3F3F;
 	font-size: 24.5px;
 	line-height: 30px;
 	margin: 0;
+}
+.game_item p{
+  font-weight: 300;
+}
+.game_item p.author{
+  color: #808080;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 .game_item p.description{
 	max-height: 70px;
 	white-space: nowrap;
 	overflow: hidden;
+  font-weight: 300;
 	text-overflow:ellipsis;
+  margin-bottom: 5px;
 }
 .game_item .btn{
-	margin-top: 20px;
+	margin-top: 10px;
 }
-
 .game_item ul.cat li{
+  color: #CDCDCD;
+  font-weight: 300;
 	display: inline-block;
+  text-transform: capitalize;
 }
 .game_item ul.cat li:after{
 	content: ","

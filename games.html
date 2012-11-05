@@ -26,7 +26,7 @@
   </head>
 
   <body>
-        <div class="alert alert-flat alert-info">We're not finished yet.</div>
+        <div class="alert alert-flat alert-info">We're currently in a state of beautifying, appologise for any bugs.</div>
 
     <div>
       <div class="masthead container">
@@ -41,7 +41,7 @@
       <div class="container">
         <div class="btn-group cat_select pull-right">
         <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-          Category
+          Genre
           <span class="caret"></span>
         </a>
           <!-- Link or button to toggle dropdown -->
@@ -83,7 +83,7 @@
           </div>
           <div class="information">
             <h1>{{name}}</h1>
-            <p class="muted">by {{author}}</p>
+            <p class="author muted">{{author}}</p>
             <p class="description" rel="popover" data-content="{{description}}">{{description}}</p>
             <ul class="muted cat">
               {{#cat}} <li>{{.}}</li> {{/cat}}
